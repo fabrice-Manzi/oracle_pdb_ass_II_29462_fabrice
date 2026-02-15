@@ -49,6 +49,9 @@ this assignment have left me with some pratical skills on oracle multitenant arc
 . link to access OEM:<https://localhost:5500/em>
 
 ## SCREENSHOT FOLDERS
+OEM DASHBOARD:<https://github.com/fabrice-Manzi/oracle_pdb_ass_II_29462_fabrice/tree/main>
+PDB CREATION:
+PDB DELETION
 
 
 
