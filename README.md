@@ -11,17 +11,17 @@ As the screenshot below illustrate, i created a new pluggable database named **f
 After the creation of new PDB, I created a user inside that PDB with username of **fabrice_plsqlauca_29462** and granted all privileges on the PDB. the next screenshot shows the commands for the user creation in sql*plus.
 --------------------------------
 #### COMMANDS USED
-. PDB Creation:**create a pluggable database fa_pdb_29462 admin user pdbadmin identified by manzi004# file_name_convert('c:\app', 'c:\app');**
-. PDB Open State: **alter pluggable database fa_pdb_29462 open;**
-. PDB User Creation: **create user fabrice_plsqlauca_29462 identified by manzi004#;**
+- PDB Creation:**create a pluggable database fa_pdb_29462 admin user pdbadmin identified by manzi004# file_name_convert('c:\app', 'c:\app');**
+- PDB Open State: **alter pluggable database fa_pdb_29462 open;**
+- PDB User Creation: **create user fabrice_plsqlauca_29462 identified by manzi004#;**
 
 ### TASK2: create and delete a PDB.
 Here i created another temporary PDB named as **fa_to_delete_pdb_29462** and then later deleted it. The screenshot below shows the PDB created successfully and then deleted.
 -----------
 #### COMMANDS USED
-. PDB Creation:**create a pluggable database fa_to_delete_pdb_29462 admin user pdbadmin identified by manzi004# file_name_convert('c:\app', 'c:\app');**
-. PDB Open State: **alter pluggable database fa_to_delete_pdb_29462 open;**
-. PDB deletion: **drop pluggable database fa_to_delete_pdb_29462 including datafiles;**
+- PDB Creation:**create a pluggable database fa_to_delete_pdb_29462 admin user pdbadmin identified by manzi004# file_name_convert('c:\app', 'c:\app');**
+- PDB Open State: **alter pluggable database fa_to_delete_pdb_29462 open;**
+- PDB deletion: **drop pluggable database fa_to_delete_pdb_29462 including datafiles;**
 
 ### TASK3: Oracle Enterprise Manager (OEM).
 From this task i have accessed the OEM dashboard as sys user in CDB level as shown in the below screenshot.
@@ -39,19 +39,19 @@ During the time of doing this assignment the challenges i faced include:
 ### IN SUMMARY
 this assignment have left me with some pratical skills on oracle multitenant architecture and GitHub basic skills for documentation.
 ## COMMANDS USED IN ASSIGNMENT
-. PDB Creation:**create a pluggable database PDB_NAME admin user pdbadmin identified by PASSWORD# file_name_convert('c:\app', 'c:\app');**
-. PDB Open State: **alter pluggable database PDB_NAME open;**
-. PDB User Creation: **create user USERNAME identified by PASSWORD;**
-. PDB deletion: **drop pluggable database fa_to_delete_pdb_29462 including datafiles;**
-. PDBs Availble: **show pdbs**
-. Changing session/container: **alter session set container=con_name**
-. see container name: **show con_name**
-. link to access OEM:<https://localhost:5500/em>
+- PDB Creation:**create a pluggable database PDB_NAME admin user pdbadmin identified by PASSWORD# file_name_convert('c:\app', 'c:\app');**
+- PDB Open State: **alter pluggable database PDB_NAME open;**
+- PDB User Creation: **create user USERNAME identified by PASSWORD;**
+- PDB deletion: **drop pluggable database fa_to_delete_pdb_29462 including datafiles;**
+- PDBs Availble: **show pdbs**
+- Changing session/container: **alter session set container=con_name**
+- see container name: **show con_name**
+- link to access OEM:<https://localhost:5500/em>
 
 ## SCREENSHOT FOLDERS
-OEM DASHBOARD:<https://github.com/fabrice-Manzi/oracle_pdb_ass_II_29462_fabrice/tree/main>
-PDB CREATION:
-PDB DELETION
+- OEM DASHBOARD:(https://github.com/fabrice-Manzi/oracle_pdb_ass_II_29462_fabrice/tree/main)
+- PDB CREATION:
+- PDB DELETION
 
 
 
