@@ -22,7 +22,7 @@ After the creation of new PDB, I created a user inside that PDB with username of
 
 ### TASK2: create and delete a PDB.
 Here I created another temporary PDB named as **fa_to_delete_pdb_29462** and then later deleted it. The screenshot below shows the PDB created successfully and then deleted.
-- ![TEMPORARY PDB CREATION SCREENSHOT](temporary-pdbcreation.png)
+- ![TEMPORARY PDB CREATION SCREENSHOT](temporary-pdb-creation.png)
 - ![PDB DELETION SCREENSHOT](deletion-command.png)
 - 
 #### COMMANDS USED
@@ -33,7 +33,7 @@ Here I created another temporary PDB named as **fa_to_delete_pdb_29462** and the
 ### TASK3: Oracle Enterprise Manager (OEM).
 From this task I have accessed the OEM dashboard as my user in PDB level as shown in the below screenshot.
 - ![OEM DASHBOARD SCREENSHOT](MANZI-OEM-DASH.png)
-- OEM LINK: <https://localhost:5500/em>
+- OEM LINK: <https://localhost:5510/em>
 
 ## CHALLENGES 
 During the time of doing this assignment the challenges i faced include:
@@ -55,12 +55,9 @@ this assignment have left me with some pratical skills on oracle multitenant arc
 - PDBs Availble: **show pdbs**
 - Changing session/container: **alter session set container=con_name**
 - see container name: **show con_name**
-- link to access OEM:<https://localhost:5500/em>
+- link to access OEM:<https://localhost:5510/em>
 
-## SCREENSHOT FOLDERS
-- [OEM DASHBOAR](OEM Dashbord/)
-- [PDB CREATION](pdb creation/)
-- [PDB DELETION](pdb deletion/)
+-----------------------------------------THANK YOU-----------------------------------------------------
 
 
 
