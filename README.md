@@ -1,15 +1,20 @@
 # ASSIGNMENT II: ORACLE PLUGGABLE DATABASE (PDB) MANAGEMENT
+
 ## TASK OVERVIEW
 This assignment was mainly focusing on** Oracle Multitenant Architecture**. Mainly on creation and deletion of pluggable database(PDB), user creation and management inside a PDB, use of oracle enterprise manager(OEM) and technical documentation using GitHub. 
 ** Oracle Environment** 
 In this assignment, I used **oracle 21c** which has built-in feature of OEM.
+
 ## TASKS BREAKDOWN
 I worked on 3 main tasks in this assignment.
 ### TASK1: Creation of new pluggable database(PDB).
 As the screenshot below illustrate, I created a new pluggable database named **fa_pdb_29462** and then opened it.
---------------------------------
+- ![PDB CREATION SCREENSHOT](images/pdb-created-successfully.png)
+- ![PDB OPEN STATUS SCREENSHOT](images/pdb-mode-status.png)
+  
 After the creation of new PDB, I created a user inside that PDB with username of **fabrice_plsqlauca_29462** and granted all privileges on the PDB. the next screenshot shows the commands for the user creation in sql*plus.
---------------------------------
+- ![USER CREATION SCREENSHOT](images/user-created.png)
+  
 #### COMMANDS USED
 - PDB Creation:**create a pluggable database fa_pdb_29462 admin user pdbadmin identified by manzi004# file_name_convert('c:\app', 'c:\app');**
 - PDB Open State: **alter pluggable database fa_pdb_29462 open;**
@@ -17,7 +22,9 @@ After the creation of new PDB, I created a user inside that PDB with username of
 
 ### TASK2: create and delete a PDB.
 Here I created another temporary PDB named as **fa_to_delete_pdb_29462** and then later deleted it. The screenshot below shows the PDB created successfully and then deleted.
------------
+- ![TEMPORARY PDB CREATION SCREENSHOT](images/temporary-pdbcreation.png)
+- ![PDB DELETION SCREENSHOT](images/deletion-command.png)
+- 
 #### COMMANDS USED
 - PDB Creation:**create a pluggable database fa_to_delete_pdb_29462 admin user pdbadmin identified by manzi004# file_name_convert('c:\app', 'c:\app');**
 - PDB Open State: **alter pluggable database fa_to_delete_pdb_29462 open;**
@@ -25,7 +32,8 @@ Here I created another temporary PDB named as **fa_to_delete_pdb_29462** and the
 
 ### TASK3: Oracle Enterprise Manager (OEM).
 From this task I have accessed the OEM dashboard as my user in PDB level as shown in the below screenshot.
---------------------
+![OEM DASHBOARD SCREENSHOT](images/MANZI-OEM-DASH.png)
+
 OEM LINK: <https://localhost:5500/em>
 
 ## CHALLENGES 
@@ -35,9 +43,11 @@ During the time of doing this assignment the challenges i faced include:
 3. **Access to OEM as PDB user**: this was another challenge that i faced where i was only accessing OEM as only sys user.
 
 ## INTEGRITY STATEMENT
---------------------------------
+I declare that this repository contains my original work done independently. I haave not copied or used unauthorized materials from any other person or source.
+
 ### IN SUMMARY
 this assignment have left me with some pratical skills on oracle multitenant architecture and GitHub basic skills for documentation.
+
 ## COMMANDS USED IN ASSIGNMENT
 - PDB Creation:**create a pluggable database PDB_NAME admin user pdbadmin identified by PASSWORD# file_name_convert('c:\app', 'c:\app');**
 - PDB Open State: **alter pluggable database PDB_NAME open;**
