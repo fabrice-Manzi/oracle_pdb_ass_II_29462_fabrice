@@ -58,9 +58,9 @@ this assignment have left me with some pratical skills on oracle multitenant arc
 - link to access OEM:<https://localhost:5500/em>
 
 ## SCREENSHOT FOLDERS
-- [OEM DASHBOAR](pdb-creation/)
-- [PDB CREATION](pdb-creation/)
-- [PDB DELETION](pdb-deletion/)
+- [OEM DASHBOAR](OEM Dashbord/)
+- [PDB CREATION](pdb creation/)
+- [PDB DELETION](pdb deletion/)
 
 
 
