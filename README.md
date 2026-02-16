@@ -9,11 +9,11 @@ In this assignment, I used **oracle 21c** which has built-in feature of OEM.
 I worked on 3 main tasks in this assignment.
 ### TASK1: Creation of new pluggable database(PDB).
 As the screenshot below illustrate, I created a new pluggable database named **fa_pdb_29462** and then opened it.
-- ![PDB CREATION SCREENSHOT](images/pdb-created-successfully.png)
-- ![PDB OPEN STATUS SCREENSHOT](images/pdb-mode-status.png)
+- ![PDB CREATION SCREENSHOT](pdb-created-successfully.png)
+- ![PDB OPEN STATUS SCREENSHOT](pdb-mode-status.png)
   
 After the creation of new PDB, I created a user inside that PDB with username of **fabrice_plsqlauca_29462** and granted all privileges on the PDB. the next screenshot shows the commands for the user creation in sql*plus.
-- ![USER CREATION SCREENSHOT](images/user-created.png)
+- ![USER CREATION SCREENSHOT](user-created.png)
   
 #### COMMANDS USED
 - PDB Creation:**create a pluggable database fa_pdb_29462 admin user pdbadmin identified by manzi004# file_name_convert('c:\app', 'c:\app');**
@@ -22,8 +22,8 @@ After the creation of new PDB, I created a user inside that PDB with username of
 
 ### TASK2: create and delete a PDB.
 Here I created another temporary PDB named as **fa_to_delete_pdb_29462** and then later deleted it. The screenshot below shows the PDB created successfully and then deleted.
-- ![TEMPORARY PDB CREATION SCREENSHOT](images/temporary-pdbcreation.png)
-- ![PDB DELETION SCREENSHOT](images/deletion-command.png)
+- ![TEMPORARY PDB CREATION SCREENSHOT](temporary-pdbcreation.png)
+- ![PDB DELETION SCREENSHOT](deletion-command.png)
 - 
 #### COMMANDS USED
 - PDB Creation:**create a pluggable database fa_to_delete_pdb_29462 admin user pdbadmin identified by manzi004# file_name_convert('c:\app', 'c:\app');**
@@ -32,9 +32,8 @@ Here I created another temporary PDB named as **fa_to_delete_pdb_29462** and the
 
 ### TASK3: Oracle Enterprise Manager (OEM).
 From this task I have accessed the OEM dashboard as my user in PDB level as shown in the below screenshot.
-![OEM DASHBOARD SCREENSHOT](images/MANZI-OEM-DASH.png)
-
-OEM LINK: <https://localhost:5500/em>
+- ![OEM DASHBOARD SCREENSHOT](MANZI-OEM-DASH.png)
+- OEM LINK: <https://localhost:5500/em>
 
 ## CHALLENGES 
 During the time of doing this assignment the challenges i faced include:
