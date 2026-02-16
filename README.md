@@ -37,9 +37,9 @@ From this task I have accessed the OEM dashboard as my user in PDB level as show
 
 ## CHALLENGES 
 During the time of doing this assignment the challenges i faced include:
-1.** I didn't know sql commands to use**: to overcome this I used some youtube videos to see more about use of pl/sql commands as well using our notes and other AI tools to help understand it clearly the commands used.
-2. ** Installation of oracle 21c**: this was among the first challenge i faced where these was failed due to not enough memory to create a database. So I installed software only and then using database configuration assistant I managed to create a database later.
-3. **Access to OEM as PDB user**: this was another challenge that i faced where i was only accessing OEM as only sys user.
+- **I didn't know sql commands to use**: to overcome this I used some youtube videos to see more about use of pl/sql commands as well using our notes and other AI tools to help understand it clearly the commands used.
+- **Installation of oracle 21c**: this was among the first challenge i faced where these was failed due to not enough memory to create a database. So I installed software only and then using database configuration assistant I managed to create a database later.
+- **Access to OEM as PDB user**: this was another challenge that i faced where i was only accessing OEM as only sys user.
 
 ## INTEGRITY STATEMENT
 I declare that this repository contains my original work done independently. I haave not copied or used unauthorized materials from any other person or source.
