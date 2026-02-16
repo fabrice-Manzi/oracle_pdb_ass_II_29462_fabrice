@@ -6,7 +6,7 @@ In this assignment, I used **oracle 21c** which has built-in feature of OEM.
 ## TASKS BREAKDOWN
 I worked on 3 main tasks in this assignment.
 ### TASK1: Creation of new pluggable database(PDB).
-As the screenshot below illustrate, i created a new pluggable database named **fa_pdb_29462** and then opened it.
+As the screenshot below illustrate, I created a new pluggable database named **fa_pdb_29462** and then opened it.
 --------------------------------
 After the creation of new PDB, I created a user inside that PDB with username of **fabrice_plsqlauca_29462** and granted all privileges on the PDB. the next screenshot shows the commands for the user creation in sql*plus.
 --------------------------------
@@ -16,7 +16,7 @@ After the creation of new PDB, I created a user inside that PDB with username of
 - PDB User Creation: **create user fabrice_plsqlauca_29462 identified by manzi004#;**
 
 ### TASK2: create and delete a PDB.
-Here i created another temporary PDB named as **fa_to_delete_pdb_29462** and then later deleted it. The screenshot below shows the PDB created successfully and then deleted.
+Here I created another temporary PDB named as **fa_to_delete_pdb_29462** and then later deleted it. The screenshot below shows the PDB created successfully and then deleted.
 -----------
 #### COMMANDS USED
 - PDB Creation:**create a pluggable database fa_to_delete_pdb_29462 admin user pdbadmin identified by manzi004# file_name_convert('c:\app', 'c:\app');**
@@ -24,7 +24,7 @@ Here i created another temporary PDB named as **fa_to_delete_pdb_29462** and the
 - PDB deletion: **drop pluggable database fa_to_delete_pdb_29462 including datafiles;**
 
 ### TASK3: Oracle Enterprise Manager (OEM).
-From this task i have accessed the OEM dashboard as sys user in CDB level as shown in the below screenshot.
+From this task I have accessed the OEM dashboard as my user in PDB level as shown in the below screenshot.
 --------------------
 OEM LINK: <https://localhost:5500/em>
 
@@ -49,9 +49,9 @@ this assignment have left me with some pratical skills on oracle multitenant arc
 - link to access OEM:<https://localhost:5500/em>
 
 ## SCREENSHOT FOLDERS
-- OEM DASHBOARD:(https://github.com/fabrice-Manzi/oracle_pdb_ass_II_29462_fabrice/tree/main)
-- PDB CREATION:
-- PDB DELETION
+- [OEM DASHBOAR](pdb-creation/)
+- [PDB CREATION](pdb-creation/)
+- [PDB DELETION](pdb-deletion/)
 
 
 
