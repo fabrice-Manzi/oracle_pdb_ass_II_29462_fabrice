@@ -1,3 +1,5 @@
+# MANZI FABRICE
+# ID:29462
 # ASSIGNMENT II: ORACLE PLUGGABLE DATABASE (PDB) MANAGEMENT
 
 ## TASK OVERVIEW
@@ -57,7 +59,7 @@ this assignment have left me with some pratical skills on oracle multitenant arc
 - see container name: **show con_name**
 - link to access OEM:<https://localhost:5510/em>
 
------------------------------------------THANK YOU-----------------------------------------------------
+-------------------------------------------------------THANK YOU------------------------------------------------------------------
 
 
 
