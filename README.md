@@ -64,8 +64,8 @@ this assignment have left me with some pratical skills on oracle multitenant arc
 - [v] User created inside the PDB
 - [v] Temporary PDB created and deleted
 - [v] OEM Dashboard screenshot included
-- [v] GitHhub repository is public
-- [v] READMEcis clear and professional
+- [v] GitHub repository is public
+- [v] README is clear and professional
 - [v] Deadline respected
 
   - **Reposiory link**: <https://github.com/fabrice-Manzi/oracle_pdb_ass_II_29462_fabrice>
