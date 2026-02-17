@@ -68,9 +68,9 @@ this assignment have left me with some pratical skills on oracle multitenant arc
 - [v] READMEcis clear and professional
 - [v] Deadline respected
 
-   - **Reposiory link**:<https://github.com/fabrice-Manzi/oracle_pdb_ass_II_29462_fabrice>
-  - PDB NAME CREATED: FA_PDB_29462
-  - ISSUES ENCOUNTERED: [YES]
+  - **Reposiory link**: <https://github.com/fabrice-Manzi/oracle_pdb_ass_II_29462_fabrice>
+  - PDB NAME CREATED: **FA_PDB_29462**
+  - ISSUES ENCOUNTERED: **[YES]**
     
 -------------------------------------------------------THANK YOU------------------------------------------------------------
 
