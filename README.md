@@ -4,7 +4,8 @@
 
 ## TASK OVERVIEW
 This assignment was mainly focusing on**Oracle Multitenant Architecture**. Mainly on creation and deletion of pluggable database(PDB), user creation and management inside a PDB, use of oracle enterprise manager(OEM) and technical documentation using GitHub.The objective was to strengthen practical database administration skills that are essential for future PL/SQL labs, practical tests, etc... 
-##**Oracle Environment** 
+
+## **Oracle Environment** 
 In this assignment, I used different tools including:
 - Oracle 21c
 - Command prompt(SqlPlus)
