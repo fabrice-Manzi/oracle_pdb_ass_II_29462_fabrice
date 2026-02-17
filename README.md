@@ -3,9 +3,12 @@
 # ASSIGNMENT II: ORACLE PLUGGABLE DATABASE (PDB) MANAGEMENT
 
 ## TASK OVERVIEW
-This assignment was mainly focusing on** Oracle Multitenant Architecture**. Mainly on creation and deletion of pluggable database(PDB), user creation and management inside a PDB, use of oracle enterprise manager(OEM) and technical documentation using GitHub. 
-** Oracle Environment** 
-In this assignment, I used **oracle 21c** which has built-in feature of OEM.
+This assignment was mainly focusing on**Oracle Multitenant Architecture**. Mainly on creation and deletion of pluggable database(PDB), user creation and management inside a PDB, use of oracle enterprise manager(OEM) and technical documentation using GitHub.The objective was to strengthen practical database administration skills that are essential for future PL/SQL labs, practical tests, etc... 
+##**Oracle Environment** 
+In this assignment, I used different tools including:
+- Oracle 21c
+- Command prompt(SqlPlus)
+- Oracle enterprise manager
 
 ## TASKS BREAKDOWN
 I worked on 3 main tasks in this assignment.
@@ -70,7 +73,7 @@ this assignment have left me with some pratical skills on oracle multitenant arc
 
   - **Reposiory link**: <https://github.com/fabrice-Manzi/oracle_pdb_ass_II_29462_fabrice>
   - PDB NAME CREATED: **FA_PDB_29462**
-  - ISSUES ENCOUNTERED: **[YES]**
+  - ISSUES ENCOUNTERED: **[YES]**, this issue is the access to EOM as PDB user and it was solved by reconfiguration of the port number from 5500 to 5510 and using valid credentials. 
     
 -------------------------------------------------------THANK YOU------------------------------------------------------------
 
